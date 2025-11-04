@@ -1,0 +1,17 @@
+# Backend
+ridemate-backend/target/
+ridemate-backend/.mvn/
+ridemate-backend/mvnw
+ridemate-backend/mvnw.cmd
+ridemate-backend/.idea/
+ridemate-backend/*.iml
+
+# Frontend
+ridemate-frontend/node_modules/
+ridemate-frontend/build/
+ridemate-frontend/.env
+
+# IDE
+.DS_Store
+*.iml
+.idea/
