@@ -35,6 +35,7 @@ public class Rating {
     @Column(nullable = false)
     private Integer stars; // 1-5
 
+    @Builder.Default
     @Column(nullable = false)
     private LocalDateTime createdAt = LocalDateTime.now();
 }

@@ -31,15 +31,19 @@ public class User {
     private String phoneNumber;
     private String profilePicture;
 
+    @Builder.Default
     @Column(nullable = false)
     private Double averageRating = 0.0;
 
+    @Builder.Default
     @Column(nullable = false)
     private Integer totalRatings = 0;
 
+    @Builder.Default
     @Column(nullable = false)
     private LocalDateTime createdAt = LocalDateTime.now();
 
+    @Builder.Default
     @Column(nullable = false)
     private LocalDateTime updatedAt = LocalDateTime.now();
 

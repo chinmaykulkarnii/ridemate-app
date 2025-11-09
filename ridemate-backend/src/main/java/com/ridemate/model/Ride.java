@@ -47,9 +47,11 @@ public class Ride {
     private String vehicleNumber;
     private String additionalInfo;
 
+    @Builder.Default
     @Column(nullable = false)
     private Boolean isActive = true;
 
+    @Builder.Default
     @Column(nullable = false)
     private LocalDateTime createdAt = LocalDateTime.now();
 
